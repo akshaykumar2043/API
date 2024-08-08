@@ -7,9 +7,9 @@ const config = require("../db/config");
 
 //otp TWILIO
 const twilio = require('twilio');
-const accountSid = "AC7f995548ba6276c0348d693f910e3acb";
-const authToken = "4c80bcef4ee33032cd876645cb6bf813";
-const twilioServiceId = "VA364a32b24a29abf708359b70636a915b";
+const accountSid =process.env.accountSid
+const authToken = process.env.authToken
+const twilioServiceId = process.env.twilioServiceId
 const client = require("twilio")(accountSid, authToken);
 
 

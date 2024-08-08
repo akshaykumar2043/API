@@ -1,6 +1,0 @@
-#ignore .env
-.env
-
-#ignore no::de modules
-node_modules/
-
